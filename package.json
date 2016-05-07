@@ -1,10 +1,10 @@
 {
   "name": "find-up-glob-cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Find a file by walking up parent directories ",
   "main": "index.js",
   "bin": {
-      "find-up-glob": "index.js"
+    "find-up-glob": "index.js"
   },
   "preferGlobal": true,
   "scripts": {
