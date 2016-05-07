@@ -1,0 +1,57 @@
+{
+  "name": "find-up-glob-cli",
+  "version": "0.0.0",
+  "description": "Find a file by walking up parent directories ",
+  "main": "index.js",
+  "bin": {
+      "find-up-glob": "index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "jasmine-node spec/"
+  },
+  "keywords": [
+    "find",
+    "up",
+    "find-up",
+    "findup",
+    "glob",
+    "find-up-glob",
+    "look-up",
+    "look",
+    "file",
+    "match",
+    "search",
+    "package",
+    "resolve",
+    "parent",
+    "parents",
+    "folder",
+    "directory",
+    "dir",
+    "walk",
+    "walking",
+    "path",
+    "pattern",
+    "minimatch",
+    "cli",
+    "cli-app"
+  ],
+  "author": "Tan Li Hau <lhtan93@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanhauhau/find-up-glob-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tanhauhau/find-up-glob-cli/issues"
+  },
+  "homepage": "https://github.com/tanhauhau/find-up-glob-cli#readme",
+  "dependencies": {
+    "find-up-glob": "^1.0.0",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
